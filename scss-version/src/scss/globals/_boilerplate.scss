@@ -1,0 +1,30 @@
+@use "../utils" as u;
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 23.4375em;
+    color: var(--white-color);
+    background: top/contain url('../../assets/bg-mobile.svg') no-repeat, var(--violet-color);
+
+    @include u.breakpoint-up(large) {
+        background: top/cover url('../../assets/bg-desktop.svg') no-repeat, var(--violet-color);
+    }
+}
+
