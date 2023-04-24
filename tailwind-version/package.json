@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-version",
+  "version": "1.0.0",
+  "description": "This is a solution of one the Frontend Mentor challenges - https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0, built with TailwindCSS",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "keywords": [],
+  "author": "Radek Tomasek (radek.tomasek@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1"
+  }
+}

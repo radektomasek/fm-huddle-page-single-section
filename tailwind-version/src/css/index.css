@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply box-border;
+    }
+
+    body {
+        @apply bg-small lg:bg-large bg-no-repeat bg-violet bg-top bg-contain;
+    }
+
+    h1 {
+        @apply font-poppins font-semibold leading-6 text-xl lg:text-2xl m-0 p-0; 
+    }
+
+    p {
+        @apply font-sans font-normal leading-6 text-base lg:text-lg;
+    }
+
+    a {
+        @apply decoration-0 visited:decoration-0 active:decoration-0;
+    }
+
+}
+
+@layer components {
+    .btn {
+        @apply font-poppins font-normal leading-6 text-xs text-violet bg-white cursor-pointer border-0 rounded-3xl shadow py-4 px-16 hover:text-white hover:bg-soft-magenta lg:text-lg;
+    }
+}
