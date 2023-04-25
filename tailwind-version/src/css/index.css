@@ -27,6 +27,22 @@
 
 @layer components {
     .btn {
-        @apply font-poppins font-normal leading-6 text-xs text-violet bg-white cursor-pointer border-0 rounded-3xl shadow py-4 px-16 hover:text-white hover:bg-soft-magenta lg:text-lg;
+        @apply font-poppins font-normal leading-6 text-xs text-violet bg-white cursor-pointer border-0 rounded-3xl shadow hover:text-white hover:bg-soft-magenta w-[12.5rem] h-[2.5rem] lg:text-lg lg:h-[3.5rem];
     }
+}
+
+.social-links {
+    @apply flex flex-row justify-around w-3 mx-0 mt-16 mb-10 w-[6.5rem] lg:w-[9.5rem];
+}
+
+.social-link {
+    @apply inline-flex justify-center items-center w-7 h-7 rounded-full border-white border text-white hover:border-pink hover:text-pink lg:w-10 lg:h-10;
+}
+
+.icon {
+    @apply w-3/6 h-3/6;
+}
+
+.illustration img {
+    @apply w-full h-auto;
 }
