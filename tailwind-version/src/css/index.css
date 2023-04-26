@@ -12,11 +12,11 @@
     }
 
     h1 {
-        @apply font-poppins font-semibold leading-6 text-xl lg:text-2xl m-0 p-0; 
+        @apply font-poppins font-semibold text-white leading-normal text-xl lg:text-2xl m-0 p-0; 
     }
 
     p {
-        @apply font-sans font-normal leading-6 text-base lg:text-lg;
+        @apply font-sans font-normal text-white leading-normal text-base lg:text-lg;
     }
 
     a {
@@ -27,8 +27,40 @@
 
 @layer components {
     .btn {
-        @apply font-poppins font-normal leading-6 text-xs text-violet bg-white cursor-pointer border-0 rounded-3xl shadow hover:text-white hover:bg-soft-magenta w-[12.5rem] h-[2.5rem] lg:text-lg lg:h-[3.5rem];
+        @apply font-poppins font-normal leading-normal text-xs text-violet bg-white cursor-pointer border-0 rounded-3xl shadow hover:text-white hover:bg-soft-magenta w-[12.5rem] h-[2.5rem] lg:text-lg lg:h-[3.5rem];
     }
+}
+
+.grid-container {
+    @apply grid auto-cols-auto auto-rows-auto pt-10 pb-0 px-9 lg:grid-rows-3 lg:grid-cols-2 pt-10 pr-20 pb-0 pl-9;
+}
+
+.grid-item-1 {
+    @apply lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2 mb-16;
+}
+
+.grid-item-2 {
+    @apply lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1 mt-14 lg:ml-14 lg:mt-8;
+}
+
+.grid-item-3 {
+    @apply lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1;
+}
+
+.grid-item-4 {
+    @apply lg:row-start-3 lg:row-span-1 lg:col-start-1 lg:col-span-2;
+}
+
+.grid-item-3 p {
+    @apply mt-4 mb-6 lg:py-6;
+}
+
+.huddle-logo {
+    @apply inline-block w-[7.5rem] h-auto w-[12.5rem]; 
+}
+
+.illustration {
+    @apply w-full h-auto;
 }
 
 .social-links {
@@ -43,6 +75,3 @@
     @apply w-3/6 h-3/6;
 }
 
-.illustration img {
-    @apply w-full h-auto;
-}

@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,js,ts,jsx,tsx}",
     "./index.html",
   ],
   theme: {
@@ -17,8 +16,6 @@ module.exports = {
       colors: {
         violet: 'hsl(257, 40%, 49%)',
         'soft-magenta': 'hsl(300, 69%, 71%)',
-        white: 'hsl(0, 0%, 100%)',
-        black: 'hsl(0, 0%, 0%)',
         pink: 'hsl(322, 100%, 66%)',
       },
       fontFamily: {
