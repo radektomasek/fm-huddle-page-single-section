@@ -32,7 +32,7 @@
 }
 
 .grid-container {
-    @apply grid auto-cols-auto auto-rows-auto gap-y-14 pt-10 pb-0 px-9 pt-10 pr-20 pb-0 pl-9 max-w-screen-2xl lg:gap-x-14 lg:gap-y-0 lg:mx-auto;
+    @apply grid auto-cols-auto auto-rows-auto gap-y-14 pt-10 pb-0 px-9 pt-10 pr-10 lg:pr-20 pb-0 pl-9 max-w-screen-2xl lg:gap-x-14 lg:gap-y-0 lg:mx-auto;
 }
 
 .grid-item-1 {
@@ -68,10 +68,15 @@
 }
 
 .social-link {
-    @apply inline-flex justify-center items-center w-7 h-7 rounded-full border-white border text-white hover:border-pink hover:text-pink lg:w-10 lg:h-10;
+    @apply inline-flex justify-center items-center w-7 h-7 rounded-full border-white border-[1.5px] text-white lg:w-10 lg:h-10;
 }
 
 .icon {
     @apply w-3/6 h-3/6;
 }
+
+.social-link:hover {
+    filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg)
+      brightness(101%) contrast(96%);
+  }
 
