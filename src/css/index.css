@@ -80,3 +80,11 @@
       brightness(101%) contrast(96%);
   }
 
+.attribution {
+    @apply bg-black text-center text-xs p-2;
+}
+
+.attribution a {
+    @apply text-soft-magenta hover:underline;
+}
+
