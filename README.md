@@ -16,13 +16,13 @@ It was quite a dilema to decide which approach to choose for these challenges on
 
 The page was built with mobile first approach in mind. And tested in various dimensions emulating different mobile devices (small resolutions).
 
-![Mobile Version](./docs/mobile-preview.png)
+<img src="./docs/mobile-preview.png"  width="320" height="100%" alt="Mobile Version">
 
 #### Tablet Version
 
 As no tablet breakpoints were specified, I assumed the expected behaviour would be to strech the content until it reaches the desktop breakpoints. Which is the approach you can see in the second screenshot.
 
-![Tablet Version](./docs/tablet-preview.png)
+<img src="./docs/tablet-preview.png"  width="640" height="100%" alt="Tablet Version">
 
 #### Desktop Version
 
@@ -32,7 +32,7 @@ There are also some constrains for ultra-wide displays. The content is just cent
 
 It probabably doesn't match the exact design, but I am personally really happy with the final look and feel.
 
-![Desktop Version](./docs/desktop-preview.png)
+<img src="./docs/desktop-preview.png"  width="1024" height="100%" alt="Desktop Version">
 
 ### Links
 
