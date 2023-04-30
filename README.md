@@ -59,6 +59,8 @@ In a nutshell, writing layouts in Grid require less code than when it comes to u
 
 The key learning for me was to start considering Grid layout for most of the projects.
 
+A new thing for me was using HSL colours instead of RGB. I like them, but it's definitely a new territory for me.
+
 Another learning for me was a deeper usage of [SASS (SCSS)](https://sass-lang.com/). I didn't use it for the final site in the end, but I was able to write the first prototype in SCSS and practise the key Grid concepts before switching to [TailwindCSS](https://tailwindcss.com).
 
 And a good thing to learn for me was the opportunity to perform a migration from a SCSS project to the Tailwind one and see the relation between a standard CSS and the Tailwind's utility classes.
@@ -69,9 +71,13 @@ Therefore, the third learning for me was to play with the Tailwind configuration
 
 ### Continued development
 
-I was able to build this site relatively comfortably as I had been an experienced developer. However, I really enjoyed the challenge and still learned some solid chunks mentioned in the previous sections.
+I was able to build this site relatively comfortably as I had been an experienced developer.
 
-My goal in the foreseeable future is to keep building these challenges and master the key CSS concepts.
+However, I really enjoyed the challenge and still learned some solid chunks mentioned in the previous sections.
+
+The biggest development area for me is to dig deeper in the HSL colours.
+
+And my general goal in the foreseeable future is to keep building these challenges and master the key CSS concepts.
 
 ### Useful resources
 
